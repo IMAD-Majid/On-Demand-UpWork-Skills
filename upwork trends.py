@@ -3,8 +3,9 @@ from json import dumps as JSONstringify, loads as JSONparse
 import cv2
 import pyperclip as clipboard
 from pyautogui import moveTo, click, press, hotkey, typewrite, position, screenshot
+from os import getcwd
 
-parentPath = "C:/Users/HP/Documents/projects/bin/"
+parentPath = getcwd() + "/"
 
 def locateElement(targetName, timeout):
     while True:
@@ -79,7 +80,9 @@ pages = 20
 
 # CONFIGURATION
 
-print("started")
+print("I am ready, i have a an open browser window with a closed console")
+input("start in 5 seconds (ENTER)")
+print("Quickly open the browser window with the closed console")
 for i in range(5):
     print(5-i)
     pause(1)
