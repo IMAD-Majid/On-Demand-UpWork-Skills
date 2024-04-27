@@ -9,7 +9,7 @@ before usage, open the command prompt and type to download the necessary modules
 - `pip install pyperclip`
 
 ## Configuration
-Go to [upwork.com](upwork.com) and screenshot but cut and save the logo part, name the image file "upwork" and place it under the same directory as the python script, make sure you minimize the cut.
+Go to [upwork.com](https://upwork.com) and screenshot but cut and save the logo part, name the image file "upwork" and place it under the same directory as the python script, make sure you minimize the cut.
 
 You can change the number of pages the program can read, by editing the intial value of the variable `pages`.
 
